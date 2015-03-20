@@ -1,0 +1,98 @@
+\documentclass[12pt,twoside,a5paper]{report}%
+\usepackage[margin=2.5cm]{geometry}
+%\setlength{\columnsep}{1cm}
+\usepackage{grbbridge}
+\usepackage{units}
+\usepackage{indentfirst}
+\usepackage{url}
+\usepackage{enumerate}
+\newcommand{\gap}{\vspace{\baselineskip}}
+\begin{document}
+\title{Bidding system based on 2/1 forcing and Gazzilli convention V0.1}
+\author{Che-wei Chang and Chia-sheng Chen}
+\date{\today}
+\maketitle
+\tableofcontents
+
+
+\chapter*{Abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
+	The system is built by Che-wei Chang and Chia-sheng Chen. All the stuffs are agreed upon us mutually. Generally, the system is a 2/1 game-forcing system while we substituted \he{1}--\sp{1}--\cl{2}, and 1M--1N--\cl{2} by Gazzilli convention, which means a type of the three below,
+	\begin{enumerate}[(a)]
+		\item 5-3-3-2 hands of 12-14, 15-17 and 18-20 HCP.
+		\item 5 Major and 4+ Clubs with 11-16 HCP.
+		\item Generally all other hands of 17+ HCP (single suiter, two suiter etc.)  
+	\end{enumerate}
+	The system has not been built thoroughly yet, so it is still immature. Both of us look forward to build up the system.
+\chapter*{Opening}
+	\addcontentsline{toc}{chapter}{Opening}
+	\begin{itemize}
+	\renewcommand{\labelitemi}{}
+		\item \cl{1}: 12-21 HCP, 2+ clubs.
+		\item \di{1}: 12-21 HCP, 4+ diamonds.
+		\item \he{1}: 12-21 HCP, 5+ hearts.
+		\item \sp{1}: 12-21 HCP, 5+ spades.
+		\item 1N: 11-14 HCP (not VUL), 15-17 HCP (VUL), BAL.
+		\item 2N: 20-21 HCP, BAL.
+		\item (\cl{1}--[ ]--2N: 18-19 HCP, BAL.)
+		\item 3N: 9-15 HCP, gambling, AKQ-headed 7+ minor suit, no void, no side A, at most one side K.
+		\item \cl{2}: 22+ HCP or 8.5+ quick tricks, any hand.
+		\item \di{2}/\he{}/\sp{}: 6-11 HCP (not VUL), 8-11 HCP (VUL), 6+ suit, at least one of the top three honor.
+		\item \cl{3}/\di{}/\he{}/\sp{}: PRE, 6+ suit.
+		\item \cl{4}/\di{}/\he{}/\sp{}: PRE, 7+ suit.
+	\end{itemize}
+\chapter*{Responce to \cl{1}}
+	\addcontentsline{toc}{chapter}{Responce to \cl{1}}
+\chapter*{Responce to \di{1}}
+	\addcontentsline{toc}{chapter}{Responce to \di{1}}
+\chapter*{Responce to \he{1}/\sp{}}
+	\addcontentsline{toc}{chapter}{Responce to \he{1}/\sp{}}
+\chapter*{Responce to 1 No-trump}
+	\addcontentsline{toc}{chapter}{Responce to 1 No-trump}
+\chapter*{Responce to \cl{2}}
+	\addcontentsline{toc}{chapter}{Responce to \cl{2}}
+\chapter*{Responce to \di{2}/\he{}/\sp{}}
+	\addcontentsline{toc}{chapter}{Responce to \di{2}/\he{}/\sp{}}
+\chapter*{Responce to 2 No-trump}
+	\addcontentsline{toc}{chapter}{Responce to 2 No-trump}
+\chapter*{Responce to Gambling 3 No-trump}
+	\addcontentsline{toc}{chapter}{Responce to Gambling 3 No-trump}
+\chapter*{Overcall}
+	\addcontentsline{toc}{chapter}{Overcall}
+\chapter*{Against No-trump}
+	\addcontentsline{toc}{chapter}{Against No-trump}
+	We define 15 HCP is the strongest possible hand for weak 1N opening. That is, 13-15 HCP is a weak 1N and 14-16 HCP is a strong 1N. 
+	\section*{Against weak no-trump}
+		\addcontentsline{toc}{section}{Against weak no-trump}
+		We use Lionel Convention in this part, both direct and balance position. Lionel Convention request any direct overcall should be at least a hand worth opening.\\
+		\auctionpart{1N,?}\\
+		\auctionpart{1N,p,p,?}\\
+		\begin{itemize}
+		\renewcommand{\labelitemi}{--}
+			\item DBL: \sp{}+\he{}/\di{}/\cl{} 44+ double suit.
+				\begin{itemize}
+				\renewcommand{\labelitemi}{--}
+					\item pass: usually 10+ HCP, all subsequent doubles for penalty.
+					\item \cl{2}: p/c to the doubler's second suit.
+					\item \di{2}: NF, \di{} length and \he{} tolerance.
+					\item \he{2}: NF, NAT.
+					\item \sp{2}: S/O.
+					\item 2N: spade raise, inv., no singleton.
+					\item \cl{3}/\di{}/\he{}: spade raise, inv., singleton in the bidding suit.
+					\item \sp{3}: PRE.
+				\end{itemize}
+			\item \cl{2}: \he{}+\cl{} 44+ double suit.
+			\item \di{2}: \he{}+\di{} 44+ double suit.
+			\item \he{2}: NAT.
+			\item \sp{2}: NAT.
+			\item 2N: unusual 2NT, distributional holding in both minor suits.
+			\item \cl{3}: NAT.
+			\item \di{3}: NAT.
+		\end{itemize}
+		
+	\section*{Against strong no-trump}
+\chapter*{Against Big \cl{}/\di{}}
+\addcontentsline{toc}{chapter}{Against Big \cl{}/\di{}}
+\chapter*{Leads and Signals}
+\addcontentsline{toc}{chapter}{Leads and Signals}
+\end{document}

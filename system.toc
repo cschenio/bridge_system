@@ -1,0 +1,15 @@
+\contentsline {chapter}{Abstract}{4}
+\contentsline {chapter}{Opening}{5}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}}{6}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{7}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{8}
+\contentsline {chapter}{Responce to 1 No-trump}{9}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{10}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{11}
+\contentsline {chapter}{Responce to 2 No-trump}{12}
+\contentsline {chapter}{Responce to Gambling 3 No-trump}{13}
+\contentsline {chapter}{Overcall}{14}
+\contentsline {chapter}{Against No-trump}{15}
+\contentsline {section}{Against weak no-trump}{15}
+\contentsline {chapter}{Against Big \unhbox \voidb@x \hbox {\ensuremath {\clubsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\diamondsuit }}}{17}
+\contentsline {chapter}{Leads and Signals}{18}

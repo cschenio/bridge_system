@@ -1,0 +1,302 @@
+\documentclass[10pt]{article}%
+\usepackage[margin=2.5cm]{geometry}
+%\setlength{\columnsep}{1cm}
+\usepackage{grbbridge}
+\usepackage{units}
+\usepackage{indentfirst}
+\usepackage{url}
+\newcommand{\gap}{\vspace{\baselineskip}}
+
+\begin{document}
+
+\title{grbbridge:\\ a set of \LaTeX\ typesetting macros}
+\author{Gordon Bower \\ \url{grb@taigabridge.net}}
+\date{v2.2, 24 December 2013}
+\maketitle
+
+\section{Simple bridge symbols}
+
+Rather than writing out 1C, 1D, ... 7S, you can use \verb+\cl{1}, \di{2}, \he{3}, \sp{4}+, etc., to get contract names using suit symbols, protected against line breaks between the number and the symbol: \cl{1}, \di{2}, \he{3}, \sp{4}. Need to put something more complicated next to the suit symbol? That works, too. \verb+\cl{3/4/5} openings are preempts+: \cl{3/4/5} openings are preempts.
+
+Common practice in most bridge texts is to refer to a contract as $<$level$><$suit$>$ but refer to a card as $<$suit$><$spot$>$. You can name a card with \verb+\clubs{A}, \diamonds{K}, \hearts{7},+ \verb+\spades{2}+ and get \clubs{A}, \diamonds{K}, \hearts{7}, and \spades{2} as output. As an extra bonus that saves you a few keystrokes, if you require a ``naked'' suit symbol in your text, either \verb+\cl{}+ or \verb+\clubs{}+ work exactly the same as \verb+$\clubsuit$+. Example: \verb!Cappelletti \di{2} shows \he{}+\sp{}!: Cappelletti \di{2} shows \he{}+\sp{}.
+
+More importantly, you can post a whole hand by putting strings inside the brackets. But it is mighty cumbersome to type \verb+\spades{AK543} \hearts{---} \diamonds{AT6542} \clubs{KJ}+ to get \spades{AK543} \hearts{---} \diamonds{AT6542} \clubs{KJ}, and again, you might be hit by line breaks in unwanted places. Instead, you can enter the contents of a whole hand at once:\\ \verb+\hhand{AK543,,AT6542,KJ}+ for a horizontal display  \hhand{AK543,,AT6542,KJ},\\ 
+ and the same thing with \verb+\vhand+ to display the hand vertically inline: \vhand{AK543,,AT6542,KJ}
+
+Internally, running \verb+\hhand+ or \verb+\vhand+ first parses the hand into four sub-strings, \verb+\raws, \rawh, \rawd,+ \verb+\rawc+ and then uses the \verb+\spades \hearts \diamonds \clubs+ commands on each string. The formatting is customizable: by default a void is displayed as an emdash, but if you wish to change this to something else:  \verb+\renewcommand{\voidsymbol}{void} \hhand{AK543,,AT6542,KJ}+ produces \renewcommand{\voidsymbol}{void} \hhand{AK543,,AT6542,KJ}. \renewcommand{\voidsymbol}{---} Similarly,  \verb+\setboolean{spellten}{true}+ and \verb+\setboolean{leadingspace}{true}+ have the expected consequences: \setboolean{leadingspace}{true}\setboolean{spellten}{true}\hhand{AK543,,AT6542,KJ}.
+If you prefer, Pavlicek style, to have the cards spaced out in the hand diagram, use \verb+\setboolean{betweencards}{true}+: \setboolean{betweencards}{true}\hhand{AK543,,AT6542,KJ}. Your settings of \verb+\voidsymbol+ and the booleans will be remembered for the rest of the document and do not needed repeated before every hand. (Yes, that means I used \verb+\renewcommand{\voidsymbol}{---}+ to get my em dash back in the previous paragraph.) One warning: the space-insertion routine only recognizes A, K, Q, J, x, and numerals. It's smart enough to not put a space between the 1 and 0 if you write out ``10'', but if you try \verb+\hhand{AQxx(x?),Kxx(x?),J10xx,x}+ with spacing on you might not like the results: \hhand{AQxx(x?),Kxx(x?),J10xx,x}
+
+New in version 2.1 is another boolean, \verb+nolinebreak+, false by default. When \verb+nolinebreak+ is false, \verb+\hhand+ will permit line breaks after each suit (but not between a suit-symbol and the first card or between the cards of the same suit, even if \verb+betweencards+ or \verb+leadingspace+ are turned on.)  When true, all four suits must appear on the same line, even if the resulting spacing is awkward:\\
+\noindent \verb+\setboolean{nolinebreak}{true} \hhand{AK,QJT,9876,5432}+ produces \setboolean{nolinebreak}{true}\hhand{AK,QJT,9876,5432}.\setboolean{nolinebreak}{false}
+
+\section{Hand diagrams}
+
+One could display a whole deal by building a 3x3 table and including four \verb+\vhand+s in it. Rather than having to create a table each time, the \verb+handdiagram+ environment automates this process. Inside the environment, you set the holdings of each hand with the \verb+\north, \south, \east, \west+ commands, using the same syntax as \verb+\hhand+. If you want a legend at the upper left corner of the diagram, you can specify vulnerability with \verb+\vul+, taking one of \verb+o, n, e, b+  as an argument with the obvious meanings, dealer with \verb+\dealer+ taking arguments \verb+n, e, s, w+, and board number with \verb+\boardnum+. In fact if you set a board number between 1 and 32, the dealer and vulnerability will automatically be filled in for you. Example:
+
+\noindent\verb+\begin{handdiagram}+\\
+\verb+\boardnum{23}+\\
+\verb+\north{AK,QJT98,7654,32}+\\
+\verb+\south{QJT98,7654,32,AK}+\\
+\verb+\east{7654,32,AK,QJT98}+\\
+\verb+\west{32,AK,QJT98,7654}+\\
+\verb+\end{handdiagram}+
+
+\gap
+\begin{handdiagram}
+\boardnum{23}
+\north{AK,QJT98,7654,32}
+\south{QJT98,7654,32,AK}
+\east{7654,32,AK,QJT98}
+\west{32,AK,QJT98,7654}
+\end{handdiagram}
+\gap
+
+The commands inside the \verb+handdiagram+ environment can appear in any order. If for some reason you want vulnerability and dealer settings that don't match a board number, set the board number \textit{first} and then use \verb+\vul+ and \verb+\dealer+ to apply your corrections.
+
+Did you notice that I haven't re-set \verb+spellten+, \verb+leadingspace+, or \verb+betweencards+ to false yet? This format with all three true looks nice in a big hand diagram with lots of whitespace around it. In a more compact setting I don't like spelled-out tens or the extra space in hand diagrams, but I do like the leading space; for an inline hand, I prefer to take out the leading spaces too. \textbf{New in Version 2.2} is the ability to remember two different sets of settings. By default, \verb+spellten+, \verb+leadingspace+, and \verb+betweencards+ apply everywhere. But if you set \verb+hdsettings+ to \verb+true+, you can then set \verb+hdspellten+, \verb+hdleadingspace+, and \verb+hdbetweencards+, and have these settings apply only while in a handdiagram environment. 
+\setboolean{spellten}{false}\setboolean{betweencards}{false}
+
+By default a simple box with the compass directions is displayed in the center of the diagram. You can suppress this with \verb+\hidecompass+ and restore it with \verb+\showcompass+. (The compass directions are implemented with a standard boolean: \verb+\hidecompass+ is just an alias for \verb+\setboolean{compasshide}{true}+.)
+If you don't specify all four hands, the missing hands are automatically omitted from the diagram:
+
+\noindent\verb+\begin{handdiagram}+\\
+\verb+\east{7654,32,AK,QJT98}+\\
+\verb+\west{32,AK,QJT98,7654}+\\
+\verb+\end{handdiagram}+
+
+\begin{handdiagram}
+\east{7654,32,AK,QJT98}
+\west{32,AK,QJT98,7654}
+\end{handdiagram}
+
+There is no requirement that every hand have 13 cards in it. The bad news is that there is \textit{not} any automatic ``proofreading'' to make sure you haven't given the same card to more than one player or given someone 14 cards. The good news is that you can use \verb+handdiagram+ for end positions, as in this classic simple squeeze against West: 
+
+\begin{verbatim}
+\begin{handdiagram} 
+\north{AJ,K,,} 
+\west{KQ,A,,} 
+\south{32,,A,} 
+\end{handdiagram}
+\end{verbatim}
+
+\gap
+\begin{handdiagram} 
+\north{AJ,K,,}
+\west{KQ,A,,}
+\south{32,,A,}
+\end{handdiagram}
+\gap
+
+\textbf{New in Version 2.2} is a capacity to display a single suit, for purposes of illustrating a card combination. The \verb+\cardcomb+ command simply takes four strings and displays them in the north, east, south, and west positions. It \textit{does not} do any automatic formatting of the cards, but it \textit{does} allow you to include any spacing or text that you want:
+
+\verb+\cardcomb{AKT32,QJ,9876,54}+ \cardcomb{AKT32,QJ,9876,54}
+
+\gap\verb+\fbox{\cardcomb{Q84,K\underline{T}5,,\hearts{3} led}}+ \fbox{\cardcomb{Q84,K\underline{T}5,,\hearts{3} led}}
+
+Notice that \verb+\cardcomb+, unlike a \verb+handdiagram+, always reserves space for all four hands even when, as above, the South cards were blank.
+
+\section{Auctions}
+
+It is also tedious to typeset auctions by hand using tables. A simple command \verb+\auction+ takes care of routine auctions. It takes one argument, a comma-separated list of the bids in the auction (all lowercase, x for double, xx for redouble, p for pass, n for notrump) and draws a table for you: \verb+\auction{1c,p,1s,p,1n,2h,x}+
+
+\gap\auction{1c,p,1s,p,1n,2h,x}\gap
+
+Because only lowercase letters are automatically converted into suit symbols, this means that if you \textit{want} text rather than symbols, all you have to do is use the uppercase version. Mix and match freely, as in this example where I still use ``p'' for Pass: \verb+\auction{1C,p,1S,p,1N,2H,X}+
+
+ \gap\auction{1C,p,1S,p,1N,2H,X}\gap
+ 
+The software automatically appends ``Pass Pass Pass'' to the end of every auction, spells out ``Double,'' but abbreviates ``Rdbl'' to avoid creating wildly uneven column widths. You can customize Double and Rdbl by substituting the strings of your preference into \verb+\renewcommand{\dblstring}{Double}+ and \verb+\renewcommand{\rdblstring}{Rdbl}+. (See below for what to do if you \textit{don't} want ``Pass Pass Pass'' and the end of your auction.) 
+To get an auction where someone other than West is the dealer, begin the auction with extra commas. (The same trick can be used to add blank cells to descibe an auction with a bid out of turn.) Example: \verb+\auction{,,,1d,p,1h,p,3h,p,4c,p,4d,p,6h,p,6n}+
+
+\gap\auction{,,,1d,p,1h,p,3h,p,4c,p,4d,p,6h,p,6n}\gap
+
+If you want to add a label underneath W-N-E-S e.g. with player names, put your desired labels in a comma-separated list as an optional argument: 
+\verb+\auction[Meckstroth,Zia,Rodwell,Me]{,3h,p,4h,x,xx}+
+
+\gap\auction[Meckstroth,Zia,Rodwell,Me]{,3h,p,4h,x,xx}\gap
+
+If you need two rows of labels (e.g. to fit first and last names), simply put 8 items in the comma-separated list; to omit selected labels, insert extra commas:\\  \verb+\auction[,Zia,,Mimi,,Mahmood,,Selfandi]{,3h,p,4h,x,xx}+
+
+\gap\auction[,Zia,,Mimi,,Mahmood,,Selfandi]{,3h,p,4h,x,xx}\gap
+
+However, only plain text can be accepted in the arguments, not fancy formatting. If you do not like the left-justified italic format, you'll have to edit the style file. And if your name is Fran\c{c}ois Dvo\v{r}\'ak, you are out of luck.
+
+You can also introduce extra plain text into the list of calls. The most common insertions are ``!'' for alertable bids, ``?'' for questionable bids, and some flag indicating bids requiring additional explanation. Automatic footnoting is not supported, nor is any kind of symbol insertion that requires the use of a $\backslash$-command. If you want to footnote a complex explanation you'll have to add the text yourself:
+
+\begin{verbatim}
+\auction{1c(1),1n(2),x(3),2s(4),3n}\\ (1) Precision, 16+ any shape.\\ 
+(2) Non-touching suits (\sp{}+\di{} or \he{}+\cl{})\\ (3) 5-8 any shape.\\ 
+(4) To play opposite \sp{}+\di{}, willing to go to the 3-level in \cl{} and/or \he{}.
+\end{verbatim}
+
+\auction{1c(1),1n(2),x(3),2s(4),3n}\\
+(1) Precision, 16+ any shape.\\
+(2) Non-touching suits (\sp{}+\di{} or \he{}+\cl{})\\
+(3) 5-8 any shape.\\ (4) To play opposite \sp{}+\di{}, 
+willing to go to the 3-level in \cl{} and/or \he{}.
+
+\gap
+Note that \textit{only the first two characters} of each call in the auction are examined for substitutions. If you want to put extraneous text \textit{before} a bid, no substitution is possible. Thus, if you wish to describe an auction with a hesitation, you will need to spell out ``...Pass'' or ``...1NT'' (and if you want to describe a hesitation before a suit bid, you'll have to footnote it, since \verb+...\sp{4}+ is not plain-text and will crash \verb+\auction+.) Example: \verb+\auction{1s,p,3s,...Pass,p,x?}+
+
+\gap\auction{1s,p,3s,...Pass,p,x?}\gap
+
+\subsection*{Other kinds of auctions --- new in version 2.2}
+
+Starting in version 2.2, there is support for ``All Pass'' instead of ``Pass Pass Pass,'' and for incomplete auctions, as in a bidding problem. Behind the scenes, this is done with a generalized auction command, \verb+\genauction+ \textit{[labels] \{beginning of auction\} \{end of auction\}}, though you have no need to ever use \verb+\genauction+ unless you want to:
+
+To suppress the final passes,  \verb+\auctionpart{1h,p,2h}+ is equivalent to \verb+\genauction{1h,p,2h}{}+:
+
+\auctionpart{1h,p,2h}
+
+\noindent In a normal auction, ``,p,p,p'' is automatically tacked on to the end of every auction: \verb+\auction{1h,p,2h}+ is equivalent to \verb+\genauction{1h,p,2h}{,p,p,p}+ (or  \verb+\auctionpart{1h,p,2h,p,p,p}+ or several other variations on the theme.) In fact, the string ``,p,p,p'' is stored in \verb+\auctionending+, so redefining this to ``,ap'' implements an English-style auction ending:
+
+\verb+\auction{1h,p,2h} \hspace{3cm} \renewcommand{\auctionending}{,ap} \auction{1h,p,2h}+
+
+\auction{1h,p,2h} \hspace{3cm}
+\renewcommand{\auctionending}{,ap}
+\auction{1h,p,2h}
+
+\gap One small trap is that for a passed-out hand, \verb+\auction{}+ will ``see'' the comma in ``,ap'', and place ``All Pass'' under North instead of West. If you want an English-style passout, use \verb+\auctionpart{ap}+ or \verb+\genauction{ap}{}+ instead. (You may still decide you don't like the spacing, since this makes one column wider than the other three.) There is no such issue in the American style, where \verb+\auction{p}+ displays as four passes.
+
+\begin{verbatim}
+\auction{} \hspace{3cm}\vspace{1cm} \auctionpart{ap} \\ 
+\renewcommand{\auctionending}{,p,p,p} \auction{p} 
+\end{verbatim}
+
+\auction{} \hspace{3cm}\vspace{1cm}\auctionpart{ap} \\ \renewcommand{\auctionending}{,p,p,p} \auction{p}
+
+\gap
+A ``bidding problem'' version is also provided, that ends every auction with ``?'': \verb+\bidprob{1h,x,2h}+ is equivalent to \verb+\genauction{1h,x,2h}{,?}+ or \verb+\auctionpart{1h,x,2h,?}+. Note that \verb+\auctionpart+, \verb+\bidprob+, and \verb+\genauction+ all support the same optional-argument labels as the original \verb+\auction+.
+
+\bidprob{1h,x,2h}
+
+\gap Also provided starting in version 2.2 are \verb+\nsauction+ and \verb+\ewauction+ for two-handed auctions. The syntax is the same as for \verb+\auctionpart+, including using an extra comma if East or South deals, and support for the optional label argument, but two-handed auctions do not automatically append the final pass.
+\verb+ \nsauction[Me,You]{1h,2h,4h,p}  \ewauction{,1s,2n,?}+ 
+
+ \gap\nsauction[Me,You]{1h,2h,4h,p}  \ewauction{,1s,2n,?}
+
+
+
+\section{The \textit{deal} float}
+
+
+\begin{deal}
+\begin{handdiagram}
+\north{AKQJT98765432,,,}
+\west{,AKQJT9,AKQJT9,2}
+\east{,876543,876543,3}
+\south{,2,2,AKQJT987654}
+\boardnum{1}
+\end{handdiagram}
+\auction{,2c,p,3c,4h,7s}
+\caption{Somebody forgot to shuffle!}
+\label{demo}
+\end{deal}
+
+
+The \verb+deal+ environment is a simple wrapper to enable you to place hand diagrams, auctions, etc into a floating ``figure'', supporting all of the standard \LaTeX\ float tools like captions, references, and page references. See deal \ref{demo} on page \pageref{demo}  for an example. This demo deal was inserted with the following code, and the previous sentence used \verb+\ref{demo}+ and \verb+\pageref{demo}+:
+
+\noindent\verb+\begin{deal}+\\
+\verb+\begin{handdiagram}+\\
+\verb+\north{AKQJT98765432,,,}+\\
+\verb+\west{,AKQJT9,AKQJT9,2}+\\
+\verb+\east{,876543,876543,3}+\\
+\verb+\south{,2,2,AKQJT987654}+\\
+\verb+\boardnum{1}+\\
+\verb+\end{handdiagram}+\\
+\verb+\auction{,2c,p,3c,4h,7s}+\\
+\verb+\caption{Somebody forgot to shuffle!}+\\
+\verb+\label{demo}+\\
+\verb+\end{deal}+\\
+
+The \verb+deal+ float is a very simple piece of code I made to suit my own tastes. Its entire definition in the style file, literally, is \verb+\RequirePackage{float}+
+\verb+\floatstyle{ruled}+
+\verb+\newfloat{deal}{htb}{lod}+ 
+\verb+\floatname{deal}{Deal}+. You are welcome to customize it however you wish -- or declare your own environments named Example, Exercise, Board, whatever -- but I do not anticipate supporting fancy options for floats in future versions of this package.
+
+\section{Titling and referencing nonfloating hands -- new in version 2.1}
+
+Version 2.1 of \url{grbbridge} enhances \verb+\vhand+, allowing an optional argument to include a title for a given hand. For example, \verb+\vhand[Opener]{Axxx,Kxxx,x,AKxx}\vhand[Responder]{KQxx,x,Jxxx,Txxx}+
+
+\gap\vhand[Opener]{Axxx,Kxxx,x,AKxx} \vhand[Responder]{KQxx,x,Jxxx,Txxx}
+
+\gap You cannot use any special formatting inside the optional argument. If you put two hands side by side but give only one a label, one will occupy five rows and the other only four, and they will not align vertically unless you include an optional \verb+[]+ on the second hand:
+
+\gap \verb+\vhand[Opener]{Axxx,Kxxx,x,AKxx}\vhand[]{KQxx,x,Jxxx,Txxx}\vhand{KQxx,x,Jxxx,Txxx}+
+
+\vhand[Opener]{Axxx,Kxxx,x,AKxx}\vhand[]{KQxx,x,Jxxx,Txxx}\vhand{KQxx,x,Jxxx,Txxx}
+
+\gap
+
+\subsection*{Defining new hand types}
+
+Rather than displaying and manually labelling several hands as above, it may be useful to have the hands automatically labelled for you. In version 2.1, a command \verb+newhandtype+ is provided to allow you to define your own automatically-numbered non-floating hand types. \verb+newhandtype+ takes four arguments, specifying the new command name, the text to display above each hand, the counter format (arabic, Alph, alph, Roman, roman), and when to reset the counter (chapter, section, subsection, etc., or never.) Example: 
+
+\begin{verbatim}
+\newhandtype{opener}{Opener}{arabic}{section}
+\newhandtype{resp}{Responder}{Alph}{never}
+\opener{Axxx,Kxxx,x,AKxx}\hspace{3cm}
+\resp{KQxx,x,Jxxx,Txxx}
+\resp{x,KQxx,Jxxx,Txxx}
+\resp{KQxx,Jxxx,x,Txxx}
+\end{verbatim}
+
+\newhandtype{opener}{Opener}{arabic}{section}
+\newhandtype{resp}{Responder}{Alph}{never}
+\opener{Axxx,Kxxx,x,AKxx}\hspace{3cm}
+\resp{KQxx,x,Jxxx,Txxx}
+\resp{x,KQxx,Jxxx,Txxx}
+\resp{KQxx,Jxxx,x,Txxx}
+
+\gap 
+
+It is convenient to be able to reference these automatically in the text with \verb+\ref+ the same way one references a figure. Pass the desired names as optional arguments, and \verb+\ref+ will copy the hand counters correctly into your text.
+
+Additional graphic elements can be used to group and offset sets of hands. This example displays four hands in a box:
+
+\begin{verbatim}
+\fbox{
+\opener[onedia]{Axxx,Kxxx,AKxx,x}\hspace{3cm}
+\resp[onespade]{KQxx,x,Jxxx,Txxx}
+\resp[oneheart]{x,KQxx,Jxxx,Txxx}
+\resp[bothmajors]{KQxx,Jxxx,x,Txxx}}
+
+\vspace{\baselineskip}
+Opener \ref{onedia} opens \di{1}. Responder \ref{onespade} replies with \sp{1}, 
+while holding hand \ref{oneheart} or \ref{bothmajors} his proper response is \he{1}.
+\end{verbatim}
+
+\fbox{
+\opener[onedia]{Axxx,Kxxx,AKxx,x}\hspace{3cm}
+\resp[onespade]{KQxx,x,Jxxx,Txxx}
+\resp[oneheart]{x,KQxx,Jxxx,Txxx}
+\resp[bothmajors]{KQxx,Jxxx,x,Txxx}}
+
+\gap Opener \ref{onedia} opens \di{1}. Responder \ref{onespade} replies with \sp{1}, while holding hand \ref{oneheart} or \ref{bothmajors} his proper response is \he{1}.
+
+\gap In fact, if you specify \verb+never+ for the counter reset, a label (the formatted counter appended to the command name) will automatically be generated for you: \verb+\ref{respA}+ resolves to \ref{respA} (which isn't horribly useful, but \verb+\pageref{respA}+ to say hand A is on page \pageref{respA} might be) but \verb+\ref{opener1}+ is not automatically defined, since there may be another Opener 1 in another section.
+
+Compile your document at least twice to make sure references are correctly resolved. As with any \LaTeX\ counter, you may manually reset the counter at any time. If you wish to change the format of the counter, you can do this with two \verb+renewcommand+s as in the following example (\verb+\format+\textit{handtypename} is a string specifying how to format the title for each hand, while \verb+\the+\textit{handtypename} specifies how references will resolve). Note that the counter is incremented \textit{before} each new hand is displayed, i.e., if you want the next hand to be labeled 1, reset the counter to 0.
+
+
+\begin{verbatim}
+\opener{AKQxxxxx,Axxx,x,x}
+\setcounter{opener}{12}
+\opener[label13]{Axxx,AKQxxxxx,x,x}
+\renewcommand\formatopener{roman}
+\renewcommand\theopener{\roman{opener}}
+\opener[label14]{x,x,AKQxxxxx,Axxx}
+\end{verbatim}
+
+
+\opener{AKQxxxxx,Axxx,x,x}
+\setcounter{opener}{12}
+\opener[label13]{Axxx,AKQxxxxx,x,x}
+\renewcommand\formatopener{roman}
+\renewcommand\theopener{\roman{opener}}
+\opener[label14]{x,x,AKQxxxxx,Axxx}
+
+\gap
+\LaTeX 's referencing system remembers  what the format of each label was at the time it was defined; \verb+\ref{label13}+ and \verb+\ref{label14}+ resolve to \ref{label13} and \ref{label14} respectively.
+
+\end{document}
