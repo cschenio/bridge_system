@@ -28,18 +28,23 @@
 	\addcontentsline{toc}{chapter}{Opening}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
-		\item \cl{1}: 12-21 HCP, 2+ clubs.
-		\item \di{1}: 12-21 HCP, 4+ diamonds.
-		\item \he{1}: 12-21 HCP, 5+ hearts.
-		\item \sp{1}: 12-21 HCP, 5+ spades.
+		\item \cl{1}: 
+		\begin{enumerate}[(a)]
+			\item 12-14 HCP, BAL.
+			\item 12-21 HCP, 5+\cl{}, unless 4=4=1=4.
+		\end{enumerate}
+		\item \di{1}: 12-21 HCP, 5+\di{}, unless 4--4--4--1 shape and \di{} has 4 cards.
+		\item \he{1}: 12-21 HCP, 5+\he{}.
+		\item \sp{1}: 12-21 HCP, 5+\sp{}.
 		\item 1N: 11-14 HCP (not VUL), 15-17 HCP (VUL), BAL.
 		\item 2N: 20-21 HCP, BAL.
 		\item (\cl{1}--[ ]--2N: 18-19 HCP, BAL.)
-		\item 3N: 9-15 HCP, gambling, AKQ-headed 7+ minor suit, no void, no side A, at most one side K.
-		\item \cl{2}: 22+ HCP or 8.5+ quick tricks, any hand.
+		\item 3N: ART, 9-15 HCP, gambling, AKQ-headed 7+ minor suit, no void, no side A, at most one side K.
+		\item \cl{2}: ART, 22+ HCP or 8.5+ quick tricks, any hand.
 		\item \di{2}/\he{}/\sp{}: 6-11 HCP (not VUL), 8-11 HCP (VUL), 6+ suit, at least one of the top three honor.
 		\item \cl{3}/\di{}/\he{}/\sp{}: PRE, 6+ suit.
 		\item \cl{4}/\di{}/\he{}/\sp{}: PRE, 7+ suit.
+		\item 4N: ART, RKCB ask A.
 	\end{itemize}
 \chapter*{Responce to \cl{1}}
 	\addcontentsline{toc}{chapter}{Responce to \cl{1}}
@@ -92,7 +97,21 @@
 		
 	\section*{Against strong no-trump}
 \chapter*{Against Big \cl{}/\di{}}
-\addcontentsline{toc}{chapter}{Against Big \cl{}/\di{}}
+	\addcontentsline{toc}{chapter}{Against Big \cl{}/\di{}}
+	We use Truscott convention here, a direct overcall is a two-suiter, shows the bidding suit and the higher touching suit. (\sp{1} shows \sp{}+\cl{}). A jump overcall is similar to the preemptive bid. Double and 1N show non-touching two suits. While big \cl{}/\di{} does not show \cl{}/\di{} suit, a \cl{1}--\cl{2}, for example, does not mean Michael cuebid. Instead, it shows a \cl{}+\di{} two-suiter.\\
+	For example:\\
+	\auctionpart{\cl{1}!,?}\\
+	\auctionpart{\cl{1}!,p,\di{1}!,?}\\
+	\begin{itemize}
+	\renewcommand{\labelitemi}{--}
+		\item \di{1}: \di{}+\he{} 44+.
+		\item \he{1}: \he{}+\sp{} 44+.
+		\item \sp{1}: \sp{}+\cl{} 44+.
+		\item \cl{2}: \cl{}+\di{} 44+;
+		\item \di{2}/\he{}/\sp{}: PRE.
+		\item DBL: a non-touching two-suit (\he{}+\cl{}/\sp{}+\di{}) which contains the suit bidded by RHO.
+		\item 1N: a non-touching two-suit which does not contain the suit bidded by RHO.
+	\end{itemize}
 \chapter*{Leads and Signals}
 \addcontentsline{toc}{chapter}{Leads and Signals}
 \end{document}
