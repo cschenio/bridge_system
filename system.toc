@@ -11,22 +11,26 @@
 \contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{13}
 \contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}}{15}
 \contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}}{15}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{16}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{17}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{18}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{18}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{19}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{20}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{20}
-\contentsline {chapter}{Responce to 1 No-trump}{22}
-\contentsline {section}{Strong No-trump}{22}
-\contentsline {section}{Weak No-trump}{23}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{24}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{25}
-\contentsline {chapter}{Responce to 2 No-trump}{26}
-\contentsline {chapter}{Responce to Gambling 3 No-trump}{27}
-\contentsline {chapter}{Overcall}{28}
-\contentsline {chapter}{Against No-trump}{29}
-\contentsline {section}{Against weak no-trump}{29}
-\contentsline {chapter}{Against Big \unhbox \voidb@x \hbox {\ensuremath {\clubsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\diamondsuit }}}{31}
-\contentsline {chapter}{Leads and Signals}{33}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--1N!}{16}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{17}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{18}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{18}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{20}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{20}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--1N!}{21}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\spadesuit }}}{22}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{23}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{23}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{24}
+\contentsline {chapter}{Responce to 1 No-trump}{25}
+\contentsline {section}{Strong No-trump}{25}
+\contentsline {section}{Weak No-trump}{26}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{27}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{28}
+\contentsline {chapter}{Responce to 2 No-trump}{29}
+\contentsline {chapter}{Responce to Gambling 3 No-trump}{30}
+\contentsline {chapter}{Overcall}{31}
+\contentsline {chapter}{Against No-trump}{32}
+\contentsline {section}{Against weak no-trump}{32}
+\contentsline {chapter}{Against Big \unhbox \voidb@x \hbox {\ensuremath {\clubsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\diamondsuit }}}{34}
+\contentsline {chapter}{Leads and Signals}{36}
