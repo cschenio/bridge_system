@@ -1,21 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.26)  1 MAY 2015 13:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.14)  1 MAY 2015 16:25
 entering extended mode
-**C:/Users/Je-Wei/Documents/Bridge/5542-convention/bridge_system/system.tex
-(C:/Users/Je-Wei/Documents/Bridge/5542-convention/bridge_system/system.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**system.tex
+(./system.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -31,22 +24,22 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -61,23 +54,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\grbbridge.sty
-(C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\xstring.sty
-(C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\xstring.tex
+)
+(./grbbridge.sty (./xstring.sty (./xstring.tex
 \@xs@message=\write3
 \integerpart=\count91
 \decimalpart=\count92
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 Package: grbbridge 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
 \float@exts=\toks16
@@ -87,20 +77,20 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@deal=\toks18
 \c@deal=\count94
-)
-(C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\units.sty)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+) (./units.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks19
-)
-(C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\system.aux)
+) (./system.aux)
+\openout1 = `system.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -154,20 +144,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 14.
 [1
 
-{C:/Users/Je-Wei/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\system.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./system.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
+ [2
 
-[2
-
-])
+]
+[3])
 \tf@toc=\write4
- [3]
+\openout4 = `system.toc'.
+
+ [4]
 Overfull \hbox (2.61295pt too wide) in paragraph at lines 24--25
 []\OT1/cmr/m/n/12 Generally all other hands of 17+ HCP (sin-gle suiter,
  []
@@ -177,16 +168,16 @@ Overfull \hbox (17.84323pt too wide) in paragraph at lines 26--28
 \OT1/cmr/m/n/12 Keywords:5542 2/1 game-forcing, vulnerablility-dependent
  []
 
-[4
+[5
 
-] [5
+] [6
 
 ]
 Overfull \hbox (7.62448pt too wide) in paragraph at lines 47--48
 [][]\OT1/cmr/m/n/12 /[]/[] : 6-11 HCP (not VUL), 8-11 HCP (VUL),
  []
 
-[6]
+[7]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <24.88> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -198,7 +189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[7
+[8
 
 ]
 Overfull \hbox (14.20749pt too wide) in paragraph at lines 85--86
@@ -210,117 +201,111 @@ Overfull \hbox (14.20749pt too wide) in paragraph at lines 100--101
 []\OT1/cmr/m/n/12 1N : BAL, 12-14 HCP (VUL), 15-17 HCP (notVUL). 
  []
 
-[8]
+[9]
 Overfull \hbox (14.20749pt too wide) in paragraph at lines 118--119
 []\OT1/cmr/m/n/12 1N : BAL, 12-14 HCP (VUL), 15-17 HCP (notVUL). 
  []
 
-[9] [10] [11] [12]
+[10] [11] [12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-[13
+[14
 
-] [14]
+] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
-[15
+[16
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 269.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
- [16]
-[17] [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+ [17] [18]
+[19] [20] [21
 
- []
+] [22] [23] [24] [25] [26] [27
 
-[20
-
-] [21] [22] [23] [24] [25
-
-] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 545--546
-
- []
-
-[27
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
-
- []
-
-[28
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
+] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
 
  []
 
 [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
+Underfull \hbox (badness 10000) in paragraph at lines 565--566
 
  []
 
 [30
 
-] [31
+]
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
+
+ []
+
+[31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 599--602
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 
  []
 
 [32
 
+] [33
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 627--630
+Underfull \hbox (badness 10000) in paragraph at lines 611--614
 
  []
 
-[33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 643--647
+[34
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 639--642
+
+ []
+
+[35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 655--659
 
  []
 
 
-Overfull \hbox (8.40227pt too wide) in paragraph at lines 654--655
+Overfull \hbox (8.40227pt too wide) in paragraph at lines 666--667
 []\OT1/cmr/m/n/12 DBL : a non-touching two-suit ([]+[]/[]+[]) which
  []
 
-[35
+[37
 
-] [36] [37
+] [38] [39
 
-]
-(C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\system.aux) ) 
+] (./system.aux) ) 
 Here is how much of TeX's memory you used:
- 1477 strings out of 493921
- 20231 string characters out of 3144873
- 82132 words of memory out of 3000000
- 4791 multiletter control sequences out of 15000+200000
- 10952 words of font info for 38 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 25i,8n,32p,495b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on system.pdf (37 pages, 92730 bytes).
+ 1473 strings out of 495028
+ 18959 string characters out of 6181497
+ 82888 words of memory out of 5000000
+ 4706 multiletter control sequences out of 15000+600000
+ 10952 words of font info for 38 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 25i,8n,32p,432b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on system.pdf (39 pages, 82353 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
