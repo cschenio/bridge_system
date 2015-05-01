@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.26)  1 MAY 2015 12:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.26)  1 MAY 2015 13:19
 entering extended mode
 **C:/Users/Je-Wei/Documents/Bridge/5542-convention/bridge_system/system.tex
 (C:/Users/Je-Wei/Documents/Bridge/5542-convention/bridge_system/system.tex
@@ -256,31 +256,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 546--547
 
 [28
 
-] [29
+]
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
 
-] [30
+ []
+
+[29
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
+
+ []
+
+[30
 
 ] [31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 570--573
+Underfull \hbox (badness 10000) in paragraph at lines 588--591
 
  []
 
 [32
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 598--601
+Underfull \hbox (badness 10000) in paragraph at lines 616--619
 
  []
 
 [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 614--618
+Underfull \hbox (badness 10000) in paragraph at lines 632--636
 
  []
 
 
-Overfull \hbox (8.40227pt too wide) in paragraph at lines 625--626
+Overfull \hbox (8.40227pt too wide) in paragraph at lines 643--644
 []\OT1/cmr/m/n/12 DBL : a non-touching two-suit ([]+[]/[]+[]) which
  []
 
@@ -303,7 +313,7 @@ Here is how much of TeX's memory you used:
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on system.pdf (37 pages, 91723 bytes).
+Output written on system.pdf (37 pages, 92404 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
