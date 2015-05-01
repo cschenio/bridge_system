@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.26)  1 MAY 2015 13:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.26)  1 MAY 2015 13:32
 entering extended mode
 **C:/Users/Je-Wei/Documents/Bridge/5542-convention/bridge_system/system.tex
 (C:/Users/Je-Wei/Documents/Bridge/5542-convention/bridge_system/system.tex
@@ -247,24 +247,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
 ] [21] [22] [23] [24] [25
 
-] [26] [27
+] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+[27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
 [28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
 [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
 
  []
 
@@ -273,24 +278,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 575--576
 ] [31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 588--591
+Underfull \hbox (badness 10000) in paragraph at lines 599--602
 
  []
 
 [32
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 616--619
+Underfull \hbox (badness 10000) in paragraph at lines 627--630
 
  []
 
 [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 632--636
+Underfull \hbox (badness 10000) in paragraph at lines 643--647
 
  []
 
 
-Overfull \hbox (8.40227pt too wide) in paragraph at lines 643--644
+Overfull \hbox (8.40227pt too wide) in paragraph at lines 654--655
 []\OT1/cmr/m/n/12 DBL : a non-touching two-suit ([]+[]/[]+[]) which
  []
 
@@ -301,10 +306,10 @@ Overfull \hbox (8.40227pt too wide) in paragraph at lines 643--644
 ]
 (C:\Users\Je-Wei\Documents\Bridge\5542-convention\bridge_system\system.aux) ) 
 Here is how much of TeX's memory you used:
- 1476 strings out of 493921
- 20217 string characters out of 3144873
+ 1477 strings out of 493921
+ 20231 string characters out of 3144873
  82132 words of memory out of 3000000
- 4790 multiletter control sequences out of 15000+200000
+ 4791 multiletter control sequences out of 15000+200000
  10952 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  25i,8n,32p,495b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -313,7 +318,7 @@ Here is how much of TeX's memory you used:
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on system.pdf (37 pages, 92404 bytes).
+Output written on system.pdf (37 pages, 92730 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
