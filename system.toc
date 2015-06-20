@@ -2,34 +2,38 @@
 \contentsline {chapter}{Opening}{6}
 \contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}}{8}
 \contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}}{8}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}!}{8}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}!}{9}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}!}{10}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}!}{12}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{14}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{14}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{14}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}}{16}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}}{16}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--1N!}{17}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{18}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{19}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{19}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{21}
-\contentsline {section}{Supportive bid}{21}
-\contentsline {section}{Two over one}{21}
-\contentsline {section}{Jacoby 2N}{21}
-\contentsline {section}{Bergen Raises}{22}
-\contentsline {section}{Splinter}{22}
-\contentsline {section}{Others}{23}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--1N!}{23}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{24}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{24}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{25}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\spadesuit }}}{25}
-\contentsline {chapter}{Responce to 1 No-trump}{27}
-\contentsline {section}{Strong No-trump}{27}
-\contentsline {section}{Weak No-trump}{28}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}!}{9}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}!}{10}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}!}{11}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}!}{13}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{15}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{15}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{15}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{16}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}}{17}
+\contentsline {section}{Supportive bid}{17}
+\contentsline {section}{Two over one}{17}
+\contentsline {section}{Jacoby 2S!}{17}
+\contentsline {section}{Bergen Raises}{18}
+\contentsline {section}{Splinter}{18}
+\contentsline {section}{Others}{19}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--1N!}{19}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{20}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{20}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{21}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{22}
+\contentsline {section}{Supportive bid}{22}
+\contentsline {section}{Two over one}{22}
+\contentsline {section}{Jacoby 2N!}{22}
+\contentsline {section}{Bergen Raises}{23}
+\contentsline {section}{Splinter}{23}
+\contentsline {section}{Others}{24}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--1N!}{24}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{25}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{25}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{26}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\spadesuit }}}{26}
+\contentsline {chapter}{Responce to 1 No-trump}{28}
 \contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{29}
 \contentsline {section}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{29}
 \contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{30}
