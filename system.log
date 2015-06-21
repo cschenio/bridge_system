@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.5.9)  22 JUN 2015 01:40
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.5.9)  22 JUN 2015 01:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,37 +545,46 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [29
 
-] [30]
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\diamondsuit' on input line 874.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heartsuit' on input line 874.
+(hyperref)                removing `\clubsuit' on input line 873.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spadesuit' on input line 874.
+(hyperref)                removing `\diamondsuit' on input line 873.
+
+[30]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\diamondsuit' on input line 876.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\heartsuit' on input line 876.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spadesuit' on input line 876.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 875.
+(hyperref)                be the same. Added a new anchor on input line 877.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\diamondsuit' on input line 875.
+(hyperref)                removing `\diamondsuit' on input line 877.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\heartsuit' on input line 875.
+(hyperref)                removing `\heartsuit' on input line 877.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spadesuit' on input line 875.
+(hyperref)                removing `\spadesuit' on input line 877.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--877
+Underfull \hbox (badness 10000) in paragraph at lines 878--879
 
  []
 
@@ -584,10 +593,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 876--877
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 892.
+(hyperref)                be the same. Added a new anchor on input line 894.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
+Underfull \hbox (badness 10000) in paragraph at lines 895--896
 
  []
 
@@ -596,10 +605,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 893--894
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 907.
+(hyperref)                be the same. Added a new anchor on input line 909.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
 
  []
 
@@ -608,53 +617,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 908--909
 ] [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 922--925
+Underfull \hbox (badness 10000) in paragraph at lines 924--927
 
  []
 
 [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 950--953
+Underfull \hbox (badness 10000) in paragraph at lines 952--955
 
  []
 
 [36] [37]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\clubsuit' on input line 965.
+(hyperref)                removing `\clubsuit' on input line 967.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\diamondsuit' on input line 965.
+(hyperref)                removing `\diamondsuit' on input line 967.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 966--970
+Underfull \hbox (badness 10000) in paragraph at lines 968--972
 
  []
 
 
-Overfull \hbox (8.40227pt too wide) in paragraph at lines 977--978
+Overfull \hbox (8.40227pt too wide) in paragraph at lines 979--980
 []\OT1/cmr/m/n/12 DBL : a non-touching two-suit ([]+[]/[]+[]) which
  []
 
 [38
 
 ] [39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 982.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 984.
  [40
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 982.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 984.
  (./system.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 982.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 982.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 982.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 984.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 984.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 984.
  ) 
 Here is how much of TeX's memory you used:
  8971 strings out of 495658
  124703 string characters out of 6187952
- 200236 words of memory out of 5000000
+ 200310 words of memory out of 5000000
  12134 multiletter control sequences out of 15000+600000
  11312 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

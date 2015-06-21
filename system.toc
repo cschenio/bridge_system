@@ -39,15 +39,16 @@
 \contentsline {section}{Positive Response}{29}{section*.34}
 \contentsline {section}{Balance Hand}{30}{section*.35}
 \contentsline {section}{Good suit}{30}{section*.36}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{31}{chapter*.37}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{31}{section*.38}
-\contentsline {chapter}{Responce to 2 No-trump}{32}{chapter*.39}
-\contentsline {section}{Responce to 2N}{32}{section*.40}
-\contentsline {chapter}{Responce to Gambling 3 No-trump}{33}{chapter*.41}
-\contentsline {section}{Responce to 3N}{33}{section*.42}
-\contentsline {chapter}{Overcall}{34}{chapter*.43}
-\contentsline {chapter}{Against No-trump}{35}{chapter*.44}
-\contentsline {section}{Against weak no-trump}{35}{section*.45}
-\contentsline {section}{Against strong no-trump}{36}{section*.46}
-\contentsline {chapter}{Against Big \unhbox \voidb@x \hbox {\ensuremath {\clubsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\diamondsuit }}}{38}{chapter*.47}
-\contentsline {chapter}{Leads and Signals}{40}{chapter*.48}
+\contentsline {section}{Response to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{30}{section*.37}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{31}{chapter*.38}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{31}{section*.39}
+\contentsline {chapter}{Responce to 2 No-trump}{32}{chapter*.40}
+\contentsline {section}{Responce to 2N}{32}{section*.41}
+\contentsline {chapter}{Responce to Gambling 3 No-trump}{33}{chapter*.42}
+\contentsline {section}{Responce to 3N}{33}{section*.43}
+\contentsline {chapter}{Overcall}{34}{chapter*.44}
+\contentsline {chapter}{Against No-trump}{35}{chapter*.45}
+\contentsline {section}{Against weak no-trump}{35}{section*.46}
+\contentsline {section}{Against strong no-trump}{36}{section*.47}
+\contentsline {chapter}{Against Big \unhbox \voidb@x \hbox {\ensuremath {\clubsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\diamondsuit }}}{38}{chapter*.48}
+\contentsline {chapter}{Leads and Signals}{40}{chapter*.49}
