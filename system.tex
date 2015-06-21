@@ -6,6 +6,14 @@
 \usepackage{indentfirst}
 \usepackage{url}
 \usepackage{enumerate}
+% \usepackage{hyperref}
+% \hypersetup{
+%     colorlinks,
+%     citecolor=black,
+%     filecolor=black,
+%     linkcolor=black,
+%     urlcolor=black
+% }
 \newcommand{\gap}{\vspace{\baselineskip}}
 \begin{document}
 \title{Nature 5542 2/1 bidding system V0.85}
@@ -37,7 +45,7 @@
 		\item 2N : 20-21 HCP, BAL.
 		\item (\cl{1}--[ ]--2N: 18-19 HCP, BAL.)
 		\item 3N : ART, 9-15 HCP, gambling, AKQ-headed 7+ minor suit, no void, no side A, at most one side K.
-		\item \cl{2} : ART, 22+ HCP or 8.5+ quick tricks, any hand.
+		\item \cl{2} : ART, 22+ HCP or 19+ HCP with 8.5+ quick tricks, any hand.
 		\item \di{2}/\he{}/\sp{} : 6-11 HCP (not VUL), 8-11 HCP (VUL), 6+ suit, at least one of the top three honor.
 		\item \cl{3}/\di{}/\he{}/\sp{} : PRE, 6+ suit.
 		\item \cl{4}/\di{}/\he{}/\sp{} : PRE, 7+ suit.
@@ -799,10 +807,67 @@
 
 \chapter*{Responce to \cl{2}}
 	\addcontentsline{toc}{chapter}{Responce to \cl{2}}
-	\addcontentsline{toc}{section}{Responce to \cl{2}}
-	\cl{2}--\\
+	\cl{2}-- ART, 22+ HCP or 19+ HCP with 8.5+ quick tricks, any hand.
+	\section*{Waiting Response}
+	\addcontentsline{toc}{section}{Waiting Response}
 	\begin{itemize}
-	\item \di{2} : waiting.
+	\renewcommand{\labelitemi}{}
+	\item \di{2} : 
+		\begin{enumerate}[(a)]
+		\item 0-2 CTL or 0-6 HCP.
+		\item 4+ CTL or 11+ HCP.
+		\end{enumerate}
+	\end{itemize}
+	\section*{Positive Response}
+	\addcontentsline{toc}{section}{Positive Response}
+	\begin{itemize}
+	\renewcommand{\labelitemi}{}
+	\item \he{2}: 3 CTL or 7-10 HCP, 5+\he{}.
+	\item \sp{2}: 3 CTL or 7-10 HCP, 5+\sp{}.
+	\item \cl{3}: 3 CTL or 7-10 HCP, 5+\cl{}.
+	\item \di{3}: 3 CTL or 7-10 HCP, 5+\di{}.
+	\end{itemize}
+	\section*{Balance Hand}
+	\addcontentsline{toc}{section}{Balance Hand}
+	\begin{itemize}
+	\renewcommand{\labelitemi}{}
+	\item 2N : 6-8 HCP, BAL.
+		\begin{itemize}
+		\renewcommand{\labelitemi}{--}
+			\item 3/4/5/6/7N : QUANT.
+			\item Others : NAT.
+		\end{itemize}
+	\item 3N : 9-11 HCP, BAL.
+		\begin{itemize}
+		\renewcommand{\labelitemi}{--}
+			\item 4/5/6/7N : QUANT.
+			\item Others : NAT.
+		\end{itemize}
+	\end{itemize}
+	\section*{Good Suit}
+	\addcontentsline{toc}{section}{Good suit}
+	\begin{itemize}
+	\renewcommand{\labelitemi}{}
+	\item \he{3}/\sp{} : good suit with at most 1 loser.
+	\item \cl{4}/\di{}/\he{}/\sp{} : 5+suit with no loser.
+		\begin{itemize}
+		\renewcommand{\labelitemi}{--}
+		\item cheapest bid: ask for side A/K.
+			\begin{itemize}
+			\renewcommand{\labelitemi}{--}
+				\item first step : no side A/K.
+				\item second step : A/K on lowest side suit.
+				\item third step : A/K on mid-rank side suit.
+				\item forth step : A/K on highest side suit. 
+			\end{itemize}
+			or
+			\begin{itemize}
+			\renewcommand{\labelitemi}{--}
+				\item first step : no side A/K.
+				\item second step : one side A/K.
+				\item third step : two side A/Ks. (rare)			
+			\end{itemize}
+		\end{itemize}
 	\end{itemize}
 
 \chapter*{Responce to \di{2}/\he{}/\sp{}}

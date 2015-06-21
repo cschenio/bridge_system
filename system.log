@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.5.9)  21 JUN 2015 00:47
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.5.9)  22 JUN 2015 01:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -91,18 +91,18 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 ) (./system.aux)
 \openout1 = `system.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -139,9 +139,9 @@ LaTeX Font Info:    ... okay on input line 10.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 14.
+(Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
+(Font)              <7> on input line 22.
 [1
 
 ] (./system.toc
@@ -158,14 +158,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout4 = `system.toc'.
 
  [4]
-Overfull \hbox (0.21841pt too wide) in paragraph at lines 20--23
+Overfull \hbox (0.21841pt too wide) in paragraph at lines 28--31
 \OT1/cmr/m/n/12 Keywords:5542 2/1 game-forcing, weak no-trump open-
  []
 
 [5
 
 ]
-Overfull \hbox (7.62448pt too wide) in paragraph at lines 41--42
+Overfull \hbox (7.62448pt too wide) in paragraph at lines 49--50
 [][]\OT1/cmr/m/n/12 /[]/[] : 6-11 HCP (not VUL), 8-11 HCP (VUL),
  []
 
@@ -173,30 +173,30 @@ Overfull \hbox (7.62448pt too wide) in paragraph at lines 41--42
 
 ] [7]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 46.
+(Font)              <24.88> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 46.
+(Font)              <20.74> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 46.
+(Font)              <17.28> on input line 54.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 [8
 
 ] [9]
-Overfull \hbox (14.20749pt too wide) in paragraph at lines 188--189
+Overfull \hbox (14.20749pt too wide) in paragraph at lines 196--197
 []\OT1/cmr/m/n/12 1N : BAL, 12-14 HCP (VUL), 15-17 HCP (notVUL). 
  []
 
 [10]
-Overfull \hbox (14.20749pt too wide) in paragraph at lines 312--313
+Overfull \hbox (14.20749pt too wide) in paragraph at lines 320--321
 []\OT1/cmr/m/n/12 1N : BAL, 12-14 HCP (VUL), 15-17 HCP (notVUL). 
  []
 
 [11] [12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
@@ -205,82 +205,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--420
 ] [16] [17
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 508.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 516.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 508.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 516.
 
 [18] [19] [20] [21] [22
 
 ] [23] [24] [25] [26] [27] [28
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 803--804
+] [29
 
- []
-
-[29
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
-
- []
-
-[30
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 
  []
 
 [31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 843--844
+Underfull \hbox (badness 10000) in paragraph at lines 893--894
 
  []
 
 [32
 
-] [33
+]
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
+
+ []
+
+[33
+
+] [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 857--860
+Underfull \hbox (badness 10000) in paragraph at lines 922--925
 
  []
 
-[34
+[35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 885--888
+Underfull \hbox (badness 10000) in paragraph at lines 950--953
 
  []
 
-[35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 901--905
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 966--970
 
  []
 
 
-Overfull \hbox (8.40227pt too wide) in paragraph at lines 912--913
+Overfull \hbox (8.40227pt too wide) in paragraph at lines 977--978
 []\OT1/cmr/m/n/12 DBL : a non-touching two-suit ([]+[]/[]+[]) which
  []
 
-[37
+[38
 
-] [38] [39
+] [39] [40
 
 ] (./system.aux) ) 
 Here is how much of TeX's memory you used:
- 1473 strings out of 495658
- 18874 string characters out of 6187952
+ 1472 strings out of 495658
+ 18860 string characters out of 6187952
  82044 words of memory out of 5000000
- 4692 multiletter control sequences out of 15000+600000
+ 4691 multiletter control sequences out of 15000+600000
  10952 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  25i,8n,32p,432b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on system.pdf (39 pages).
+Output written on system.pdf (40 pages).
