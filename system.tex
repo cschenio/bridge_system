@@ -1,11 +1,13 @@
 \documentclass[12pt,twoside,a5paper]{report}%
-\usepackage[margin=2.5cm]{geometry}
+\usepackage[a5paper]{geometry}
 %\setlength{\columnsep}{1cm}
 \usepackage{grbbridge}
+\usepackage{stfloats}
 \usepackage{units}
 \usepackage{indentfirst}
 \usepackage{url}
 \usepackage{enumerate}
+\usepackage{booktabs}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks,
@@ -27,7 +29,7 @@
 	\addcontentsline{toc}{chapter}{Abstract}
 	The system is built by Che-wei Jang and Chia-sheng Chen. All the stuffs are agreed upon us mutually. Generally, the system is a 2/1 game-forcing system with weak(11-14 HCPs) range of one no-trump opening.
 	The system has not been built thoroughly yet, so it is still immature. Both of us look forward to build up the system.\\
-	Keywords:5542 2/1 game-forcing, weak no-trump opening.
+	Keywords: 5542 2/1 game-forcing, weak no-trump opening.
 \chapter*{Opening}
 	\addcontentsline{toc}{chapter}{Opening}
 	\begin{itemize}
@@ -51,6 +53,22 @@
 		\item \cl{4}/\di{}/\he{}/\sp{} : PRE, 7+ suit.
 		\item 4N : ART, Blackwood, 04123 ask A.
 	\end{itemize}
+	\section*{Balance Hand Ladder}
+	\addcontentsline{toc}{section}{Balance Hand Ladder}
+	\begin{table*}[bh]
+
+
+		\label{my-label}
+		\begin{tabular}{@{}ll@{}}
+		\toprule
+		Point Range & Opening Bid \\ \midrule
+		11/12-14    & 1N          \\
+		14/15-17    & \cl{1}-1N \\
+		18-19       & \cl{1}-2N \\
+		20-21       & 2N          \\
+		22-24       & \cl{2}-2N \\ \bottomrule
+		\end{tabular}
+	\end{table*}
 \chapter*{Responce to \cl{1}}
 	\addcontentsline{toc}{chapter}{Responce to \cl{1}}
 	\addcontentsline{toc}{section}{Responce to \cl{1}}
@@ -822,10 +840,10 @@
 	\addcontentsline{toc}{section}{Positive Response}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
-		\item \he{2}: 3 CTL or 7-10 HCP, 5+\he{}.
-		\item \sp{2}: 3 CTL or 7-10 HCP, 5+\sp{}.
-		\item \cl{3}: 3 CTL or 7-10 HCP, 5+\cl{}.
-		\item \di{3}: 3 CTL or 7-10 HCP, 5+\di{}.
+		\item \he{2} : 3 CTL or 7-10 HCP, 5+\he{}.
+		\item \sp{2} : 3 CTL or 7-10 HCP, 5+\sp{}.
+		\item \cl{3} : 3 CTL or 7-10 HCP, 5+\cl{}.
+		\item \di{3} : 3 CTL or 7-10 HCP, 5+\di{}.
 	\end{itemize}
 	\section*{Balance Hand}
 	\addcontentsline{toc}{section}{Balance Hand}
@@ -848,8 +866,8 @@
 	\addcontentsline{toc}{section}{Good suit}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
-		\item \he{3}!/\sp{}! : good suit with at most 1 loser.
-		\item \cl{4}!/\di{}!/\he{}!/\sp{}! : 5+suit with no loser.
+		\item \he{3}!/\sp{}!: good suit with at most 1 loser.
+		\item \cl{4}!/\di{}!/\he{}!/\sp{}!: 5+suit with no loser.
 		\begin{itemize}
 		\renewcommand{\labelitemi}{--}
 		\item cheapest bid: ask for side A/K.
@@ -871,7 +889,7 @@
 	\end{itemize}
 	\section*{Response to \cl{2}--\di{2}!}
 	\addcontentsline{toc}{section}{Response to \cl{2}--\di{2}!}
-	
+
 \chapter*{Responce to \di{2}/\he{}/\sp{}}
 	\addcontentsline{toc}{chapter}{Responce to \di{2}/\he{}/\sp{}}
 	\addcontentsline{toc}{section}{Responce to \di{2}/\he{}/\sp{}}
