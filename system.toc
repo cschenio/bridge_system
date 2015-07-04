@@ -20,7 +20,7 @@
 \contentsline {section}{Others}{19}{section*.15}
 \contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--1N!}{19}{section*.16}
 \contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{20}{section*.17}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{20}{section*.18}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{21}{section*.18}
 \contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{21}{section*.19}
 \contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{23}{chapter*.20}
 \contentsline {section}{Supportive bid}{23}{section*.21}
