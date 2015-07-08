@@ -19,7 +19,7 @@
 \renewcommand*\rmdefault{ppl}
 \newcommand{\gap}{\vspace{\baselineskip}}
 \begin{document}
-\title{Nature 5542 2/1 bidding system V0.85}
+\title{Nature 2/1 bidding system V0.9}
 \author{Che-wei Jang and Chia-sheng Chen}
 \date{\today}
 \maketitle
@@ -38,7 +38,7 @@
 		\item \cl{1}: 
 		\begin{enumerate}[(a)]
 			\item 15-17 HCP, BAL.
-			\item 18-19 HCP, BAL.
+			%\item 18-19 HCP, BAL.
 			\item 12-21 HCP, 5+\cl{}, unless 4=4=1=4.
 		\end{enumerate}
 		\item \di{1} : 12-21 HCP, 5+\di{}, unless 4--4--4--1 shape and \di{} has 4 cards.
@@ -72,19 +72,18 @@
 	\end{table*}
 \chapter*{Responce to \cl{1}}
 	\addcontentsline{toc}{chapter}{Responce to \cl{1}}
-	\addcontentsline{toc}{section}{Responce to \cl{1}}
-	\cl{1}-- \\
-
-	Walsh Transfer
+	\section*{Walsh transfer}
+	\addcontentsline{toc}{section}{Walsh transfer}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
-	\item \di{1}!: 4+\he{}, \he{} longer than \di{} or under FG.
-	\item \he{1}!: 4+\sp{}, \sp{} longer than \di{} or under FG.
-	\item \sp{1}!: 5+\di{}, FG or no 4+M, could be 3=3=4=3 inv.
-	\item 1N : BAL, 6-9 HCP, w/o 4+M, w/o 5+\di{}
+	\item \di{1}!: 4+\he{} except GF w/ only 4 cards.
+	\item \he{1}!: 4+\sp{} except GF w/ only 4 cards.
+	\item \sp{1}!: below GF, w/o 4+M.
+	\item 1N : GF, w/o 5+M.
 	\end{itemize}
 	
-	Inverted minor raise and mixed raise
+	\section*{Inverted minor raise and mixed raise}
+	\addcontentsline{toc}{section}{Inverted minor raise and mixed raise}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \cl{2}!: 4+\cl{}, could be 3=3=3=4, 10+HCP. 
@@ -92,7 +91,8 @@
 	\item \cl{3} : 6+\cl{}, 0-6 HCP. 
 	\end{itemize}
 
-	Others
+	\section*{Others}
+	\addcontentsline{toc}{section}{Others}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item 2N!: 3=3=4=3, 12-14 HCP or 18+HCP.
@@ -100,22 +100,37 @@
 	\end{itemize}
 
 	\addcontentsline{toc}{section}{Responce to \cl{1}--\di{1}!}
-	\cl{1}--\di{1}!--
+	\section*{\cl{1}--\di{1}!--}
+	\subsection*{Balanced Hand}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
-	\item \he{1} : 3 cards \he{}, accept the transfer.
-	\item \sp{1} : 4 cards \sp{}, NAT.
-	\item \cl{2} : 5+\cl{}, 12-14 HCP, NAT.
-	\item \he{2} : 4 cards \he{}, minimum.
-	\item \he{3} : 4 cards \he{}, maximum.
-	\item \di{2} : reverse, 5+\cl{} + 4+\di{}, 16+ HCP, NAT.
-	\item \sp{2} : jump shift, 19+ HCP, NAT. 
-	\item 1N : BAL, 15-17 HCP.
-	\item 2N : BAL, 18-19 HCP.
-	\item \di{3}!: miniSPL, fit \he{}, void/singleton \di{}.
+		\item \he{1} : 4 cards \he{}.
+		\item 1N : w/o 4 cards \he{}.
 	\end{itemize}
 
-	\cl{1}--\di{1}!--1N--
+	\subsection*{Unbalanced Hand}
+
+	\subsubsection*{Fit or Semi-Fit}
+	\begin{itemize}
+	\renewcommand{\labelitemi}{}	
+		\item \he{1} : 3 cards \he{}, 12-18 HCP.
+		\item \he{2} : 4+\he{}, 12-15 HCP.
+		\item \he{3} : 4+\he{}, 16-18 HCP.
+		\item 2N!: 4+\he{}, 19-21 HCP.
+		\item \di{3}!: miniSPL, fit \he{}, void/singleton \di{}.
+	\end{itemize}
+
+	\subsubsection*{Not Fit}
+	\begin{itemize}
+	\renewcommand{\labelitemi}{}
+		\item \sp{1} : 4+\sp{}, 12-18 HCP, NAT.
+		\item \cl{2} : 5+\cl{}, 12-18 HCP, NAT.
+		\item \di{2} : reverse, 4+\di{}, 16-21 HCP, NAT.
+		\item \sp{2} : jump shift, 19-21 HCP, NAT. 
+		\item \cl{3} : 6+\cl{}, 19-21 HCP, NAT.
+	\end{itemize}
+
+	\subsection*{\cl{1}--\di{1}!--1N--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \cl{2} : Stayman, inv.
@@ -203,7 +218,7 @@
 	% \end{itemize}
 
 	\addcontentsline{toc}{section}{Responce to \cl{1}--\he{1}!}
-	\cl{1}--\he{1}!--
+	\section*{\cl{1}--\he{1}!--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \sp{1} : 3 cards \sp{}, accept the transfer.
@@ -218,7 +233,7 @@
 	\item \he{3}!: miniSPL, fit \sp{}, void/singleton \he{}.
 	\end{itemize}
 
-	\cl{1}--\he{1}!--1N--%(notVUL)
+	\subsection*{\cl{1}--\he{1}!--1N--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \cl{2} : Stayman, inv.
@@ -325,7 +340,7 @@
 	% \end{itemize}
 
 	\addcontentsline{toc}{section}{Responce to \cl{1}--\sp{1}!}
-	\cl{1}--\sp{1}--
+	\section*{\cl{1}--\sp{1}--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \cl{2} : 5+\cl{}, 12-14 HCP, NAT.
@@ -340,7 +355,7 @@
 	\item 2N : BAL, 18-19 HCP.
 	\end{itemize}
 
-	\cl{1}--\sp{1}--1N--%(notVUL)
+	\subsection*{\cl{1}--\sp{1}--1N--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \cl{2} : ask 3+\di{}, inv or FG.
@@ -384,7 +399,7 @@
 	% 	\end{itemize}
 	% \end{itemize}
 
-	\cl{1}--\sp{1}--\cl{2}--
+	\subsection*{\cl{1}--\sp{1}--\cl{2}--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \di{2} : 6+\di{}, 6-9 HCP, w/o 2+\cl{}
@@ -402,21 +417,21 @@
 	\item \sp{4}!: SPL, fit \cl{}, void/singleton \sp{}.	
 	\end{itemize}
 
-	\cl{1}--\sp{1}--\cl{2}--\he{3}!--
+	\subsubsection*{\cl{1}--\sp{1}--\cl{2}--\he{3}!--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \sp{3} : 2\di{}.
 	\item 3N : w/o 2\di{}.
 	\end{itemize}
 
-	\cl{1}--\sp{1}--\cl{2}--\sp{3}!--
+	\subsubsection*{\cl{1}--\sp{1}--\cl{2}--\sp{3}!--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item 3N : w/o  6+\cl{}.
 	\item \cl{4} : 6+\cl{}.
 	\end{itemize}
 
-	\cl{1}--\sp{1}--\cl{2}--\di{3}!--
+	\subsubsection*{\cl{1}--\sp{1}--\cl{2}--\di{3}!--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \he{3} : 6+\cl{}.
@@ -425,7 +440,7 @@
 	\end{itemize}
 
 	\addcontentsline{toc}{section}{Responce to \cl{1}--\cl{2}!}
-	\cl{1}--\cl{2}!--
+	\section*{\cl{1}--\cl{2}!--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \cl{3} : 4+\cl{}, 12-14 HCP.
@@ -442,10 +457,9 @@
 
 \chapter*{Responce to \di{1}}
 	\addcontentsline{toc}{chapter}{Responce to \di{1}}
-	\addcontentsline{toc}{section}{Responce to \di{1}}
-	\di{1}-- \\
 
-	Inverted minor raise and mixed raise
+	\section*{Inverted minor raise and mixed raise}
+	\addcontentsline{toc}{section}{Inverted minor raise and mixed raise}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \di{2}!: 3+\di{}, could be 3=3=3=4, 10+HCP, usually FG to ST. 
@@ -453,8 +467,9 @@
 	\item \di{3} : 4+\di{}, 0-5 HCP. 
 	\end{itemize}
 
+
 	\addcontentsline{toc}{section}{Responce to \di{1}--\di{2}!}
-	\di{1}--\di{2}!--
+	\section*{\di{1}--\di{2}!--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \di{3} : 5+\di{}, 12-14 HCP.
@@ -469,7 +484,7 @@
 	\end{itemize}
 
 	\addcontentsline{toc}{section}{Responce to \di{1}--\cl{2}}
-	\di{1}--\cl{2}--
+	\section*{\di{1}--\cl{2}--}
 	\begin{itemize}
 	\renewcommand{\labelitemi}{}
 	\item \di{2} : waiting.
@@ -829,68 +844,91 @@
 	\cl{2}-- ART, 22+ HCP or 19+ HCP with 8.5+ quick tricks, any hand.
 	\section*{Waiting Response}
 	\addcontentsline{toc}{section}{Waiting Response}
-	\begin{itemize}
-	\renewcommand{\labelitemi}{}
-		\item \di{2}! : 
-			\begin{enumerate}[(a)]
-			\item 0-2 CTL or 0-6 HCP.
-			\item 4+ CTL or 11+ HCP.
-			\end{enumerate}
-	\end{itemize}
+		\begin{itemize}
+		\renewcommand{\labelitemi}{}
+			\item \di{2}! : 
+				\begin{enumerate}[(a)]
+				\item 0-2 CTL or 0-6 HCP.
+				\item 4+ CTL or 11+ HCP.
+				\end{enumerate}
+		\end{itemize}
 	\section*{Positive Response}
 	\addcontentsline{toc}{section}{Positive Response}
-	\begin{itemize}
-	\renewcommand{\labelitemi}{}
-		\item \he{2} : 3 CTL or 7-10 HCP, 5+\he{}.
-		\item \sp{2} : 3 CTL or 7-10 HCP, 5+\sp{}.
-		\item \cl{3} : 3 CTL or 7-10 HCP, 5+\cl{}.
-		\item \di{3} : 3 CTL or 7-10 HCP, 5+\di{}.
-	\end{itemize}
+		\begin{itemize}
+		\renewcommand{\labelitemi}{}
+			\item \he{2} : 3 CTL or 7-10 HCP, 5+\he{}.
+			\item \sp{2} : 3 CTL or 7-10 HCP, 5+\sp{}.
+			\item \cl{3} : 3 CTL or 7-10 HCP, 5+\cl{}.
+			\item \di{3} : 3 CTL or 7-10 HCP, 5+\di{}.
+		\end{itemize}
 	\section*{Balance Hand}
 	\addcontentsline{toc}{section}{Balance Hand}
-	\begin{itemize}
-	\renewcommand{\labelitemi}{}
-		\item 2N : 6-8 HCP, BAL.
-			\begin{itemize}
-			\renewcommand{\labelitemi}{--}
-				\item 3/4/5/6/7N : QUANT.
-				\item Others : NAT.
-			\end{itemize}
-		\item 3N : 9-11 HCP, BAL.
-			\begin{itemize}
-			\renewcommand{\labelitemi}{--}
-				\item 4/5/6/7N : QUANT.
-				\item Others : NAT.
-			\end{itemize}
-	\end{itemize}
+		\begin{itemize}
+		\renewcommand{\labelitemi}{}
+			\item 2N : 6-8 HCP, BAL.
+				\begin{itemize}
+				\renewcommand{\labelitemi}{--}
+					\item 3/4/5/6/7N : QUANT.
+					\item Others : NAT.
+				\end{itemize}
+			\item 3N : 9-11 HCP, BAL.
+				\begin{itemize}
+				\renewcommand{\labelitemi}{--}
+					\item 4/5/6/7N : QUANT.
+					\item Others : NAT.
+				\end{itemize}
+		\end{itemize}
 	\section*{Good Suit}
 	\addcontentsline{toc}{section}{Good suit}
-	\begin{itemize}
-	\renewcommand{\labelitemi}{}
-		\item \he{3}!/\sp{}!: good suit with at most 1 loser.
-		\item \cl{4}!/\di{}!/\he{}!/\sp{}!: 5+suit with no loser.
 		\begin{itemize}
-		\renewcommand{\labelitemi}{--}
-		\item cheapest bid: ask for side A/K.
+		\renewcommand{\labelitemi}{}
+			\item \he{3}!/\sp{}!: good suit with at most 1 loser.
+			\item \cl{4}!/\di{}!/\he{}!/\sp{}!: 5+suit with no loser.
 			\begin{itemize}
 			\renewcommand{\labelitemi}{--}
-				\item first step : no side A/K.
-				\item second step : A/K on lowest side suit.
-				\item third step : A/K on mid-rank side suit.
-				\item forth step : A/K on highest side suit. 
-			\end{itemize}
-			or
-			\begin{itemize}
-			\renewcommand{\labelitemi}{--}
-				\item first step : no side A/K.
-				\item second step : one side A/K.
-				\item third step : two side A/Ks. (rare)			
+			\item cheapest bid: ask for side A/K.
+				\begin{itemize}
+				\renewcommand{\labelitemi}{--}
+					\item (prefered)
+					\item first step : no side A/K.
+					\item second step : one side A/K.
+					\item third step : two side A/Ks. (rare)			
+				\end{itemize}
+				or
+				\begin{itemize}
+				\renewcommand{\labelitemi}{--}
+					\item first step : no side A/K.
+					\item second step : A/K on lowest side suit.
+					\item third step : A/K on mid-rank side suit.
+					\item forth step : A/K on highest side suit. 
+				\end{itemize}
+				
 			\end{itemize}
 		\end{itemize}
-	\end{itemize}
 	\section*{Response to \cl{2}--\di{2}!}
 	\addcontentsline{toc}{section}{Response to \cl{2}--\di{2}!}
+	Forcing to 2N/3M/4m.
+		\subsection*{Balanced hand}
+			\begin{itemize}
+			\renewcommand{\labelitemi}{}
+				\item 2N : 22-24 HCP.
+				\begin{itemize}
+				\renewcommand{\labelitemi}{--}
+					\item pass: double negative.
+				\end{itemize}
+				\item 3N : 25-28 HCP.
+				\item 4/5/6/7N : QUANT.
+			\end{itemize}
 
+		\subsection*{Unbalanced hand}
+			\begin{itemize}
+			\renewcommand{\labelitemi}{}
+				\item \he{2}/\sp{2}/\cl{3}/\di{3} : 5+\he{}/\sp{}/\cl{}/\di{}.
+				\begin{itemize}
+				\renewcommand{\labelitemi}{--}
+					\item first step! : double negative.
+				\end{itemize}
+			\end{itemize}
 \chapter*{Responce to \di{2}/\he{}/\sp{}}
 	\addcontentsline{toc}{chapter}{Responce to \di{2}/\he{}/\sp{}}
 	\addcontentsline{toc}{section}{Responce to \di{2}/\he{}/\sp{}}
@@ -999,5 +1037,5 @@
 		\item 1N : a non-touching two-suit which does not contain the suit bidded by RHO.
 	\end{itemize}
 \chapter*{Leads and Signals}
-\addcontentsline{toc}{chapter}{Leads and Signals}
+	\addcontentsline{toc}{chapter}{Leads and Signals}
 \end{document}

@@ -2,54 +2,56 @@
 \contentsline {chapter}{Opening}{6}{chapter*.3}
 \contentsline {section}{Balance Hand Ladder}{7}{section*.4}
 \contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}}{8}{chapter*.5}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}}{8}{section*.6}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}!}{9}{section*.6}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}!}{10}{section*.6}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}!}{11}{section*.6}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}!}{14}{section*.6}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{15}{chapter*.7}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{15}{section*.8}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{15}{section*.8}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{16}{section*.8}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}}{17}{chapter*.9}
-\contentsline {section}{Supportive bid}{17}{section*.10}
-\contentsline {section}{Two over one}{17}{section*.11}
-\contentsline {section}{Jacoby 2S!}{17}{section*.12}
-\contentsline {section}{Bergen Raises}{18}{section*.13}
-\contentsline {section}{Splinter}{18}{section*.14}
-\contentsline {section}{Others}{19}{section*.15}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--1N!}{19}{section*.16}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{20}{section*.17}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{21}{section*.18}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{21}{section*.19}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{23}{chapter*.20}
-\contentsline {section}{Supportive bid}{23}{section*.21}
-\contentsline {section}{Two over one}{23}{section*.22}
-\contentsline {section}{Jacoby 2N!}{24}{section*.23}
-\contentsline {section}{Bergen Raises}{24}{section*.24}
-\contentsline {section}{Splinter}{25}{section*.25}
-\contentsline {section}{Others}{25}{section*.26}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--1N!}{25}{section*.27}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{26}{section*.28}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{27}{section*.29}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{27}{section*.30}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\spadesuit }}}{28}{section*.31}
-\contentsline {chapter}{Responce to 1 No-trump}{29}{chapter*.32}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{31}{chapter*.33}
-\contentsline {section}{Waiting Response}{31}{section*.34}
-\contentsline {section}{Positive Response}{31}{section*.35}
-\contentsline {section}{Balance Hand}{32}{section*.36}
-\contentsline {section}{Good suit}{32}{section*.37}
-\contentsline {section}{Response to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{33}{section*.38}
-\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{34}{chapter*.39}
-\contentsline {section}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{34}{section*.40}
-\contentsline {chapter}{Responce to 2 No-trump}{35}{chapter*.41}
-\contentsline {section}{Responce to 2N}{35}{section*.42}
-\contentsline {chapter}{Responce to Gambling 3 No-trump}{37}{chapter*.43}
-\contentsline {section}{Responce to 3N}{37}{section*.44}
-\contentsline {chapter}{Overcall}{38}{chapter*.45}
-\contentsline {chapter}{Against No-trump}{39}{chapter*.46}
-\contentsline {section}{Against weak no-trump}{39}{section*.47}
-\contentsline {section}{Against strong no-trump}{40}{section*.48}
-\contentsline {chapter}{Against Big \unhbox \voidb@x \hbox {\ensuremath {\clubsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\diamondsuit }}}{42}{chapter*.49}
-\contentsline {chapter}{Leads and Signals}{44}{chapter*.50}
+\contentsline {section}{Walsh transfer}{8}{section*.6}
+\contentsline {section}{Inverted minor raise and mixed raise}{8}{section*.7}
+\contentsline {section}{Others}{9}{section*.8}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}!}{9}{section*.8}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}!}{11}{section*.14}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}!}{12}{section*.16}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}!}{15}{section*.22}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}}{17}{chapter*.24}
+\contentsline {section}{Inverted minor raise and mixed raise}{17}{section*.25}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{17}{section*.25}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\diamondsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{18}{section*.26}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}}{19}{chapter*.28}
+\contentsline {section}{Supportive bid}{19}{section*.29}
+\contentsline {section}{Two over one}{19}{section*.30}
+\contentsline {section}{Jacoby 2S!}{19}{section*.31}
+\contentsline {section}{Bergen Raises}{20}{section*.32}
+\contentsline {section}{Splinter}{20}{section*.33}
+\contentsline {section}{Others}{21}{section*.34}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--1N!}{21}{section*.35}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{22}{section*.36}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{23}{section*.37}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\heartsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{23}{section*.38}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}}{25}{chapter*.39}
+\contentsline {section}{Supportive bid}{25}{section*.40}
+\contentsline {section}{Two over one}{25}{section*.41}
+\contentsline {section}{Jacoby 2N!}{26}{section*.42}
+\contentsline {section}{Bergen Raises}{26}{section*.43}
+\contentsline {section}{Splinter}{27}{section*.44}
+\contentsline {section}{Others}{27}{section*.45}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--1N!}{27}{section*.46}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{28}{section*.47}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}}{29}{section*.48}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\heartsuit }}}{29}{section*.49}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {1\ensuremath {\spadesuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\spadesuit }}}{30}{section*.50}
+\contentsline {chapter}{Responce to 1 No-trump}{31}{chapter*.51}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}}{33}{chapter*.52}
+\contentsline {section}{Waiting Response}{33}{section*.53}
+\contentsline {section}{Positive Response}{33}{section*.54}
+\contentsline {section}{Balance Hand}{34}{section*.55}
+\contentsline {section}{Good suit}{34}{section*.56}
+\contentsline {section}{Response to \unhbox \voidb@x \hbox {2\ensuremath {\clubsuit }}--\unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}!}{35}{section*.57}
+\contentsline {chapter}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{36}{chapter*.60}
+\contentsline {section}{Responce to \unhbox \voidb@x \hbox {2\ensuremath {\diamondsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\heartsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\spadesuit }}}{36}{section*.61}
+\contentsline {chapter}{Responce to 2 No-trump}{37}{chapter*.62}
+\contentsline {section}{Responce to 2N}{37}{section*.63}
+\contentsline {chapter}{Responce to Gambling 3 No-trump}{39}{chapter*.64}
+\contentsline {section}{Responce to 3N}{39}{section*.65}
+\contentsline {chapter}{Overcall}{40}{chapter*.66}
+\contentsline {chapter}{Against No-trump}{41}{chapter*.67}
+\contentsline {section}{Against weak no-trump}{41}{section*.68}
+\contentsline {section}{Against strong no-trump}{42}{section*.69}
+\contentsline {chapter}{Against Big \unhbox \voidb@x \hbox {\ensuremath {\clubsuit }}/\unhbox \voidb@x \hbox {\ensuremath {\diamondsuit }}}{44}{chapter*.70}
+\contentsline {chapter}{Leads and Signals}{46}{chapter*.71}
