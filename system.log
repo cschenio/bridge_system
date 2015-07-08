@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.5.9)  8 JUL 2015 16:18
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.5.9)  8 JUL 2015 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -604,22 +604,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 935--936
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 951.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
-
- []
+(hyperref)                be the same. Added a new anchor on input line 952.
 
 [37
 
 ] [38]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 966.
+(hyperref)                be the same. Added a new anchor on input line 995.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 967--968
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
@@ -628,56 +623,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 967--968
 ] [40
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 981--984
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1013
 
  []
 
 [41
 
 ]
-Overfull \hbox (2.45277pt too wide) in paragraph at lines 1009--1012
+Overfull \hbox (2.45277pt too wide) in paragraph at lines 1038--1041
 []\OT1/ppl/m/n/12 We use Modified-Landy Con-ven-tion in this part, both
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1009--1012
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1041
 
  []
 
 [42] [43]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\clubsuit' on input line 1024.
+(hyperref)                removing `\clubsuit' on input line 1053.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\diamondsuit' on input line 1024.
+(hyperref)                removing `\diamondsuit' on input line 1053.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1029
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1058
 
  []
 
 [44
 
 ] [45]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1041.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1070.
  [46
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1041.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1070.
  (./system.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1041.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1041.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1041.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1070.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1070.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1070.
  ) 
 Here is how much of TeX's memory you used:
  9097 strings out of 495658
  126579 string characters out of 6187952
- 201940 words of memory out of 5000000
+ 202012 words of memory out of 5000000
  12247 multiletter control sequences out of 15000+600000
  14046 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,10n,37p,432b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,37p,432b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on system.pdf (46 pages).
