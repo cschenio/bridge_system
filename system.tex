@@ -629,7 +629,7 @@
 		1N-- 11-14 BAL.
 		\begin{itemize}
 		\renewcommand{\labelitemi}{}
-		\item \cl{2} : Stayman, inv.
+		\item \cl{2} : ask 5M, inv.
 		\item \di{2}!: Stayman, FG.
 		\item \he{2} : To play.
 		\item \sp{2} : To play.
@@ -643,6 +643,66 @@
 		\item \he{4}/\sp{4} : To play.
 		\end{itemize}
 
+	\section*{1N--\cl{2}--}
+	\addcontentsline{toc}{section}{1N--\cl{2}--}
+		\begin{itemize}
+		\renewcommand{\labelitemi}{}
+		\item pass : min, at least 5\cl{} good suit.
+		\item \di{2} : no 5M.
+			\begin{itemize}
+			\renewcommand{\labelitemi}{--}
+				\item pass : to play.
+				\item 2M : NF, 4+M.
+					\begin{itemize}
+					\renewcommand{\labelitemi}{}
+						\item pass : to play.
+						\item \sp{2} : 4 cards \sp{}.
+						\item 2N : min, w/o 4 cards.
+						\item \cl{3} : max, w/o 4 cards.
+						\item \di{3} : max, w/ 4 cards.
+						\item 3M : min, w/ 4 cards.
+					\end{itemize}
+				\item 2N : GT.
+				\item 3m : GT.
+				\item 3M : GT, 5M + 4oM.
+			\end{itemize}
+		\item \he{2} : 5+\he{}.
+		\item \sp{2} : 5+\sp{}.
+		\item 2N : max, 6+\di{}.
+		\item \cl{3} : 6+\cl{}.
+		\end{itemize}
+
+	\section*{1N--\di{2}--}
+	\addcontentsline{toc}{section}{1N--\di{2}--}
+		\begin{itemize}
+		\renewcommand{\labelitemi}{}
+		\item \he{2}!: 5m or 4+\sp{}, puppet to \sp{2}.
+			\begin{itemize}
+			\renewcommand{\labelitemi}{--}
+			\item 2N : 5m.
+			\item \cl{3} : 5\sp{}332/4\sp{}333.
+			\item \di{3} : 5\sp{}4\di{}.
+			\item \he{3} : 4=3=2=4.
+			\item \sp{3} : 4=2=3=4.
+			\item 3N : 4=2=2=5.
+			\end{itemize}
+		
+		\item \sp{2}!: 4+\he{}, puppet to 2N.
+			\begin{itemize}
+			\renewcommand{\labelitemi}{--}
+			\item \cl{3} : 5\he{}332/4\he{}333.
+			\item \di{3} : 5\he{}4\di{}.
+			\item \he{3} : 3=4=2=4.
+			\item \sp{3} : 2=4=3=4.
+			\item 3N : 2=4=2=5.			
+			\end{itemize}
+		\item 2N : 6m.
+		\item \cl{3} : 3244/3343/3334.
+		\item \di{3} : 4432/4423.
+		\item \he{3} : 2344.
+		\item \sp{3} : 2254.
+		\item 3N : 2245.
+		\end{itemize}
 	\section*{Escape}
 	\addcontentsline{toc}{section}{Escape}
 		\subsection*{Direct double}
@@ -651,34 +711,28 @@
 		\subsection*{Balance double}
 		\auctionpart{1n,p,p,x,p,p,?}\\
 
-	\section*{Lebensohl}
-	\addcontentsline{toc}{section}{Lebensohl}
-		\auctionpart{1n,2c,?}
+\chapter*{Lebensohl}
+\addcontentsline{toc}{chapter}{Lebensohl}
+	\auctionpart{1n,2X,?}
+	\begin{itemize}
+	\renewcommand{\labelitemi}{}
+	\item 2Y : NAT, NF.
+	\item 2N : puppet to \cl{3}.
 		\begin{itemize}
-		\renewcommand{\labelitemi}{}
-		\item Double : Stayman, inv.
-		\item Other : system on.
-		\end{itemize}
-
-		\auctionpart{1n,2X,?}
-		\begin{itemize}
-		\renewcommand{\labelitemi}{}
-		\item 2Y : NAT, NF.
-		\item 2N : puppet to \cl{3}.
+		\renewcommand{\labelitemi}{--}
+		\item \cl{3}.
 			\begin{itemize}
-			\renewcommand{\labelitemi}{--}
-			\item \cl{3}.
-				\begin{itemize}
-					\item 3Y(Y$<$X) : NAT, NF.
-					\item 3Y(Y$>$X) : NAT, inv.
-					\item 3X : Stayman, shows a stopper in X.
-					\item 3N : to play, shows a stopper in X.
-				\end{itemize}
+				\item 3Y(Y$<$X) : NAT, NF.
+				\item 3Y(Y$>$X) : NAT, inv.
+				\item 3X : Stayman, shows a stopper in X.
+				\item 3N : to play, shows a stopper in X.
 			\end{itemize}
-		\item 3X : Stayman, denies a stopper in X.
-		\item 3Y : NAT, GF.
-		\item 3N : to play, denies a stopper in X.
 		\end{itemize}
+	\item 3X : Stayman, denies a stopper in X.
+	\item 3Y : NAT, GF.
+	\item 3N : to play, denies a stopper in X.
+	\end{itemize}
+
 \chapter*{Responce to \cl{2}}
 	\addcontentsline{toc}{chapter}{Responce to \cl{2}}
 	\cl{2}-- ART, 22+ HCP or 19+ HCP with 8.5+ quick tricks, any hand.
